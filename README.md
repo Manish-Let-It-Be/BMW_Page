@@ -1,9 +1,7 @@
-# BMW Car Webpage Project
-
+# BMW Car Webpage
 ## Overview
 
-This project is a simple webpage showcasing BMW cars. It includes interactive header buttons with animations, built using HTML, CSS, and JavaScript. The goal of this project is to demonstrate basic web development skills and create an engaging user experience.
-
+This project is a simple webpage showcasing BMW cars. It includes interactive header buttons with animations, built using HTML, CSS, and JavaScript. The goal of this project is to demonstrate basic web development skills.
 ## Features
 
 - **Responsive Design**: The webpage is designed to be mobile-friendly.
@@ -17,7 +15,6 @@ This project is a simple webpage showcasing BMW cars. It includes interactive he
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactivity and animations.
 
-## Getting Started
 
 ### Prerequisites
 
@@ -28,4 +25,5 @@ This project is a simple webpage showcasing BMW cars. It includes interactive he
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/bmw-car-webpage.git
+   git clone https://github.com/Manish-Let-It-Be/BMW_Page
+2. **Open Web.html File**
