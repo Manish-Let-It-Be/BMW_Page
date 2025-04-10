@@ -1,4 +1,4 @@
-# 🚗 BMW Landing Page
+# BMW Landing Page
 
 A modern, responsive **landing page for BMW** built using **HTML**, **CSS**, and **JavaScript**.  
 This project highlights sleek UI design, smooth animations, and interactive user elements.
@@ -18,7 +18,6 @@ This project highlights sleek UI design, smooth animations, and interactive user
 
 ### 🔹 Contact Us Section
 ![Contact Screenshot](Contact.jpg)
-
 
 ---
 
