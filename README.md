@@ -14,10 +14,10 @@ This project highlights sleek UI design, smooth animations, and interactive user
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-![Home Screenshot](screenshot.png)
+![Home Screenshot](Homepage.jpg)
 
 ### 🔹 Contact Us Section
-![Contact Screenshot](screenshots/contact.png)
+![Contact Screenshot](Contact.jpg)
 
 
 ---
