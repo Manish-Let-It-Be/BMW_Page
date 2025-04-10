@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMW Page - Manish</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href="bmw.png">
+    <script src="script.js" defer></script>
+    <style>
+        html {
+            scroll-behavior: smooth; 
+        }
+    </style>
+</head>
+<body>
+
+<table border="0" width="1300" height="500" align="center" cellspacing="4" cellpadding="7" bgcolor="#101820" background="car1.png">
+    <tr>
+        <td width="580"><img src="bmw.png" width="50" height="50" alt="LOGO"></td>
+        <td align="center" width="150"><a href="Web.html"><button class="button"><b>HOME</b></button></a></td>
+        <td align="center" width="150"><a href="#aboutus"><button class="button"><b>ABOUT</b></button></a></td>
+        <td align="center" width="150"><a href="#gallery"><button class="button"><b>GALLERY</b></button></a></td>
+        <td align="center" width="150"><a href="#contactus"><button class="button"><b>CONTACT US</b></button></a></td>
+        <td align="center" width="30"><a href="https://github.com/Manish-Let-It-Be"><img src="github.png" width="30" height="30"></a></td>
+        <td align="center" width="30"><a href="https://twitter.com"><img src="twitter.png" width="30" height="30"></a></td>
+        <td align="center" width="30"><a href="https://web.facebook.com"><img src="facebook.png" width="30" height="30"></a></td>
+        <td align="center" width="30"><a href="https://www.instagram.com"><img src="instagram.png" width="30" height="30"></a></td>
+        <td align="center" width="30"><a href="https://www.youtube.com"><img src="youtube.png" width="30" height="30"></a></td>
+    </tr>
+    <tr height="250" width="1300">
+        <td colspan="9" align="center"><p style="text-align: center;"><big><big><big><b>READY TO RIDE</b></big></big></big></p></td>
+    </tr>
+</table>
+<br>
+
+<div id="gallery">
+    <table border="0" width="1300" height="100" align="center" bgcolor="#0B1116">
+        <tr>
+            <td>
+                <center>
+                    <p style="width:250;height:30;background-color:#0B1116;border:0;color:white;"><big><big><b>GALLERY</b></big></big></p>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table style="border:1;border-collapse: collapse" width="1300" height="300" align="center" bgcolor="#101820">
+        <tr>
+            <td align="center" width="400" height="500"><img src="car4.png" width="400" height="500"></td>
+            <td align="center" width="250" height="500"><img src="car3.png" width="250" height="500"></td>
+            <td align="center" width="250" height="500"><img src="car6.png" width="250" height="500"></td>
+            <td align="center" width="400" height="500"><img src="car5.png" width="400" height="500"></td>
+        </tr>
+    </table>
+</div>
+
+<div id="aboutus">
+    <table border="0" width="1300" height="100" align="center" bgcolor="#0B1116">
+        <tr>
+            <td>
+                <center>
+                    <p style="width:250;height:30;background-color:#0B1116;border:0;color:white;"><big><big><b>ABOUT US</b></big></big></p>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table border="0" width="1300" height="500" align="center" bgcolor="#0B1116">
+        <tr>
+            <td width="500" height="500">
+                <p style="color:lightgrey"><big><big>BMW : Luxury Car Brand</big></big><br><br></p>
+                <pre>BMW, or Bayerische Motoren Werke, is a prestigious German automobile manufacturer
+known for its luxury vehicles, high-performance sports cars, and cutting-edge technology. 
+Founded in 1916,BMW has built a reputation for producing cars that blend dynamic driving 
+experience with sophisticated design. The brand is recognized worldwide for its precision 
+engineering, powerful engines, and innovative features that cater to both performance 
+enthusiasts and those seeking comfort and luxury. With iconic models such as the 3 Series, 
+5 Series, and X5, BMW continues to push the boundaries of automotive excellence, blending 
+tradition with forward-thinking sustainability through its electrified vehicles like the i3 and i8.</pre>
+            </td>
+            <td align="center" width="700" height="500"><img src="car2.png" width="700" height="500"></td>
+        </tr>
+    </table>
+</div>
+
+
+
+<form action="https://api.web3forms.com/submit" method="POST" id="myForm">
+
+    
+    <input type="hidden" name="access_key" value="403c5016-e17a-41dc-81f7-677a8a32c95b">
+
+    <div id="contactus">
+        <table border="0" width="1300" height="100" align="center" bgcolor="#0B1116">
+            <tr>
+                <td>
+                    <center>
+                        <p style="width:250;height:30;background-color:#0B1116;border:0;color:white;"><big><big><b>CONTACT US</b></big></big></p>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <table border="0" width="1300" height="300" align="center" bgcolor="#101820">
+            <tr>
+                <td width="30"></td>
+                <td>
+                    <form id="contactForm">
+                        <p align="left">Name</p>
+                        <input type="text" name="name" placeholder="Enter your Name" style="width: 100%; max-width: 600px;" required>
+                        <br>
+                        <p align="left">Email</p>
+                        <input type="email" name="email" placeholder="Enter your Email" style="width: 100%; max-width: 600px;" required>
+                        <br><br><br>
+                        <input type="submit" value="Send">
+                    </form>
+                </td>
+                <td align="center">
+                    <p>Write your message here</p>
+                    <textarea rows="12" cols="50" placeholder="Write your message here..." style="margin-left: 50px; width: calc(100% - 100px); max-width: 600px;" required></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+</form>
+
+<div id="successAlert" style="display:none; color: green; margin-top: 10px;">
+    ✅ Thank you! Your submission was successful.
+</div>
+  
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+  
+      document.getElementById("successAlert").style.display = "block";
+  
+      this.reset();
+
+      setTimeout(() => {
+        document.getElementById("successAlert").style.display = "none";
+      }, 5000);
+    });
+</script>
+
+<table  border="0" width="1300" height ="30" align ="center" >
+
+    <tr>
+    <td>
+    </br>    
+    <p align="center" ><b>BMW</b></p>
+    <p align="center" >bmw@car.com</p>
+    <p align="center" >+91 1234567809</p>
+    <p align="center" >BMW, Vadodara, Gujarat, India - 391760</p>
+    
+    <pre align="center" width="40" >
+        
+    <a href="https://github.com/Manish-Let-It-Be"><img src="github.png" width="30" height="30" ></a>
+
+          <a href="https://twitter.com"><img src="twitter.png" width="40" height="40" ></a>   <a href="https://web.facebook.com"><img src="facebook.png" width="40" height="40" ></a>  <a href="https://www.instagram.com"><img src="instagram.png" width="40" height="40" ></a>  <a href="https://www.youtube.com"><img src="youtube.png" width="40" height="40" ></a>       
+    
+    </pre>
+    <p align="center" style="color:grey" >© 2024 MANISH</p>
+    
+    </td>
+    </tr>
+    
+    </table>
+
+    <button id="scrollToTopBtn" style="display: none; position: fixed; bottom: 20px; right: 30px; z-index: 100;  border: none; border-radius: 5px; padding: 10px 15px; cursor: pointer;">
+        <img src="up.png" alt="Top" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+    </button>
+    
+</body>
+</html>

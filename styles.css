@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    background-color: #0B1116;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #0B1116;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007ffe;
+}
+
+#gallery img, #aboutus img, #contactus img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#gallery img:hover, #aboutus img:hover, #contactus img:hover {
+    transform: scale(1.25);
+}
+
+p {
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+
+}
+
+#scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    bottom: 20px; /* 20px from the bottom */
+    right: 30px; /* 30px from the right */
+    z-index: 100; /* Sit on top */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Some padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#scrollToTopBtn:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}

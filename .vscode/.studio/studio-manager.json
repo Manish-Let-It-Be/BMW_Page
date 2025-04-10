@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "condition": "always",
+      "commandType": "vscode",
+      "command": "studio-manager.openFile index.html 1"
+    },
+    {
+      "condition": "always",
+      "commandType": "vscode",
+      "command": "studio-manager.openSimpleBrowser https://${STUDIO_HOST_ID}-8080.${STUDIO_HOST}",
+      "delay": 2000
+    },
+    {
+      "condition": "always",
+      "commandType": "vscode",
+      "command": "studio-manager.openTerminal",
+      "cmdArgs": [
+        "live-server --no-browser",
+        {
+          "name": "live-server",
+          "location": 1,
+          "hideFromUser": true
+        }
+      ],
+      "delay": 500
+    }
+  ],
+  "simpleBrowserDefaultAppUrl": "https://${STUDIO_HOST_ID}-8080.${STUDIO_HOST}"
+}
